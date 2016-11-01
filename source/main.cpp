@@ -58,7 +58,7 @@ int main()
         // In 32 bit, the size of a pointer is 4 bytes (32 bits)
         // In 64 bit, the size of a pointer is 8 bytes (64 bits)
         cout << "sizeof(int*): " << sizeof intPointer << endl;
-        cout << "sizeof(floatt*): " << sizeof floatPointer << endl;
+        cout << "sizeof(float*): " << sizeof floatPointer << endl;
         cout << "sizeof(char*): " << sizeof charPointer << endl;
     }
     cin.get();
