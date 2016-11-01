@@ -1,0 +1,16 @@
+series: Basic C++
+title: Pointers
+author:
+  name: David Erbelding
+  email: daviderbelding@gmail.com
+  github: https://github.com/Erbelding
+description: A basic introduction to pointers in C and C++.
+language: C++
+tags:
+  - Core
+extra_resources:
+  - link: http://www.learncpp.com/cpp-tutorial/67-introduction-to-pointers/
+    title: More on pointers.
+connections:
+  - series: Basic C++
+    title: Casting
