@@ -22,10 +22,34 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include <iostream>
 using namespace std;
 
+// no pointers
+void func1(int x)
+{
+	x = 5;
+}
+
+// pointer and dereferencer
+void func2(int* x)
+{
+	*x = 5;
+}
 
 // Start of main function
 int main() 
 {
+	// test1 and test2 show how pointers
+	// can be used with functions. A very
+	// clear explanation can be found inside
+	// the README!.txt that came with this tutorial
+	
+	int test1 = 10;
+	func1(test1);
+	cout << "test1: " << test1 << endl;
+	
+	int test2 = 10;
+	func2(&test2);
+	cout << "test2: " << test2 << endl << endl;
+	
     // Pointers are the real core of C++ programming.
     // At the same time, they are one of the most confusing parts for new programmers.
     // A pointer is a variable that "points" to a specific place in the computers memory.
